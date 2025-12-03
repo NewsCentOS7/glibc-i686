@@ -30,9 +30,9 @@ Linux system will not function.
 # Cleanup any previous installs...
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/usr/src/glibc/
-cp %{SOURCE0} /usr/src/glibc/
-cp %{SOURCE1} /usr/src/glibc/
-cp %{SOURCE2} /usr/src/glibc/
+cp %{SOURCE0} $RPM_BUILD_ROOT/usr/src/glibc/
+cp %{SOURCE1} $RPM_BUILD_ROOT/usr/src/glibc/
+cp %{SOURCE2} $RPM_BUILD_ROOT/usr/src/glibc/
 
 
 
